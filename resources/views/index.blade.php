@@ -72,6 +72,7 @@
                     <th scope="col">Content</th>
                     <th scope="col">Created</th>
                     <th scope="col">Due Date</th>
+                    <th scope="col">Image</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -89,11 +90,14 @@
 {{--                            <td>{{ $task->content }}</td>--}}
 {{--                            <td>{{ $task->created_at }}</td>--}}
 {{--                            <td>{{ $task->due_date }}</td>--}}
+{{--                            <td>--}}
+{{--                                <img src="{{ asset('storage/images/' . $task->image) }}" alt="" style="width: 150px">--}}
+{{--                            </td>--}}
 {{--                        </tr>--}}
 {{--                    @endforeach--}}
 {{--                @endif--}}
-{{--                </tbody>--}}
-{{--            </table>--}}
+                </tbody>
+            </table>
 {{--        @endif--}}
 
     </div>

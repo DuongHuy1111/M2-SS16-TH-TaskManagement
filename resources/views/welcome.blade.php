@@ -70,7 +70,7 @@
         <div class="title m-b-md">Task Management</div>
 
         <div class="links">
-            <a href="" class="btn btn-primary">Add new task</a>
+            <a href="{{route('tasks.create')}}" class="btn btn-primary">Add new task</a>
             <a href="{{route('tasks.index')}}" class="btn btn-primary">Task list</a>
         </div>
     </div>
